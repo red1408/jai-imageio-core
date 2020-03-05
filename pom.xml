@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sun.media</groupId>
   <artifactId>jai_imageio</artifactId>
-  <version>1.2-pre-dr-b04</version>
+  <version>1.2-pre-dr-b04-paddingfix</version>
   <name>Java Advanced Imaging Image I/O Tools</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -66,6 +66,7 @@
         <configuration>
           <source>1.5</source>
           <target>1.5</target>
+          <encoding>iso-8859-1</encoding>
           <excludes>
             <exclude>com/sun/media/jai/**</exclude>
           </excludes>
